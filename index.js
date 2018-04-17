@@ -11,5 +11,5 @@ var sayHiToGrandma = (text) => {
     return "YES INDEED!";
   }
 
-  return text === "I love you, Grandma.".toLowerCase() ? "I love you, too." : "";
+  return text.toLowerCase() === "I love you, Grandma.".toLowerCase() ? "I love you, too." : "";
 }
