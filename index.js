@@ -1,1 +1,1 @@
-var shout (text) => { return text.toLowerCase(); }
+var shout = (text) => { return text.toLowerCase(); }
